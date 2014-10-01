@@ -1,5 +1,27 @@
 .full {
   margin: 50px;
-  text-align: center; }
+  text-align: center;
+  background-color: HSLA(201, 35%, 79%, 1); }
+
+.full h1 {
+  font-family: "Monofett", cursive;
+  font-size: 64px;
+  color: HSLA(199, 72%, 46%, 1);
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+  padding: 20px 0px; }
+
+.full h3 {
+  color: HSLA(199, 72%, 46%, 1);
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 27px;
+  margin: 20px; }
+
+.round {
+  width: 300px;
+  height: 225px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 45px; }
 
 /*# sourceMappingURL=main.css.map */
