@@ -1,23 +1,33 @@
 $font: 'Monofett', cursive;
 $font2: 'Yanone Kaffeesatz', sans-serif;
+$color: HSLA(199, 72%, 46%, 1);
+$bac-color: HSLA(201, 35%, 79%, 1);
+
+.body {
+  background-color: HSLA(60, 3%, 86%, 1);
+}
 
 .full {
-  margin: 50px;
+  margin: 50px 390px;
+  padding-bottom: 15px;
   text-align: center;
-  background-color: HSLA(201, 35%, 79%, 1);
+  background-color: $bac-color;
+  color: $color;
+  border: solid 1px;
+  border-radius: 25px;
 }
 
 .full h1{
   font-family: $font;
   font-size: 64px;
-  color: HSLA(199, 72%, 46%, 1);
+  color: $color;
   border-bottom: solid 1px;
-  border-top: solid 1px;
   padding: 20px 0px;
+  margin-top: 0px;
 }
 
 .full h3 {
-  color: HSLA(199, 72%, 46%, 1);
+  color: $color;
   font-family: $font2;
   font-size: 27px;
   margin: 20px;
